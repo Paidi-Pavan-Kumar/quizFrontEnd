@@ -1,0 +1,83 @@
+
+.quizTop{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("./quizBg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.option-btn{
+    display: block;
+    width: 70%;
+    text-align: left;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 15px 0px
+}
+.option-btn:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.025);
+    transition: 0.1s;
+}
+.queDisplay{
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px 5px lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+}
+.question{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.prevNext{
+    width: 70%;
+}
+.checked, .innerChecked{
+    background-color:blue;
+    color: white;
+}
+.QueNav{
+    width: 60%;
+    margin: 0px auto;
+    padding: 8px;
+}
+.navButColored{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.notAnsColored{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.AnsButton, .NAButton, .NVButton{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
+.AnsButton{
+    background-color: green;
+}
+.NAButton{
+    background-color: red;
+}
+.NVButton{
+    color: black;
+}
+

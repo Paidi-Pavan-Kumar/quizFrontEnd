@@ -1,0 +1,59 @@
+
+
+ #nav,.footer{
+  background-color: rgb(4, 4, 45);
+  color: #faebd7;
+}
+.App{
+  background-image: url("../public/backgroundIMG.jpg");
+  background-attachment: fixed;
+  background-color: #faebd7;
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+}
+#home{
+  width:200px;
+  text-indent: 50px;
+  margin-top: 50px;
+  color: rgb(16, 15, 15);
+  font-size: 18px;
+  margin-left: 40px;
+  
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  margin-bottom:0px;
+  padding: 30px;
+}
+#login-input,#signup-input{
+  max-width: 500px;
+}
+#nav-image{
+  max-width: 100px;
+  max-height:50px;
+}
+
+.card:hover{
+  box-shadow: 2px 2px 5px 5px gray;
+  transform: scale(1.025);
+  transition: 0.4s;
+}
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.form-container{
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255,0.7);
+}
+.form-label{
+  font-size: 17px;
+  font-weight: 600;
+}
