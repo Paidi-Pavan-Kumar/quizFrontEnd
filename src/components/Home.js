@@ -3,7 +3,7 @@
 import React from 'react';
 
 function Home() {
-  const p1 = process.env.PUBLIC_URL + '/bgimg3.png';
+  const p1 = process.env.PUBLIC_URL + '/BgImg3.png';
 
   return (
     <div  className="container-fluid mt-5">
