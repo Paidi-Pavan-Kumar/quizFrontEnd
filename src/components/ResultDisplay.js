@@ -19,7 +19,6 @@ function ResultDisplay(){
             return (<>
 
             <div className="col-md-7 col-sm-12 border border-2 border-dark">
-                slekngf
                 {index+1}. 
                 {decodedData.questions[index]}
                 <br />
