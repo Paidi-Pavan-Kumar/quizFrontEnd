@@ -41,7 +41,7 @@ function ResultsPage(props) {
                 <div className="card-body">
                     <h5 className="card-title">Test Code:{props.data.testCode}</h5>
                     <h5 className="card-title">Your Score: {props.data.score}</h5>
-                    <p className="card-text">Attempted at: {attemptedTime.getDate()}-{attemptedTime.getMonth() + 1}-{attemptedTime.getFullYear()}  {attemptedTime.getHours()}:{attemptedTime.getMinutes()} </p>
+                    <p className="card-text">Attempted on: {attemptedTime.getDate()}-{attemptedTime.getMonth() + 1}-{attemptedTime.getFullYear()}  {attemptedTime.getHours()}:{attemptedTime.getMinutes()} </p>
                     {ver ? (<>
                         {ver2 ? (<><button className="btn btn-success"><Link className='text-light text-decoration-none' to={'/result/' + encodedData}>Check Results</Link></button></>) : (
                             <button disabled className="btn btn-success">Results</button>
