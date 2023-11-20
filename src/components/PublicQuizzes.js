@@ -25,7 +25,7 @@ function PublicQuizzes(props){
     const testResultsMonth = testResultsTime.getMonth();
     const testResultsYear = testResultsTime.getFullYear();
     const resultsTimeHours = testResultsTime.getHours();
-    const resultsTimeMinutes = testEndTime.getMinutes();
+    const resultsTimeMinutes = testResultsTime.getMinutes();
 
     const [edit, setEdit] = useState();
 
