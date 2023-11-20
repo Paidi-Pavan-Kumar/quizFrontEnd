@@ -28,7 +28,7 @@ function MyTestsList(props) {
     const testResultsMonth = testResultsTime.getMonth();
     const testResultsYear = testResultsTime.getFullYear();
     const resultsTimeHours = testResultsTime.getHours();
-    const resultsTimeMinutes = testEndTime.getMinutes();
+    const resultsTimeMinutes = testResultsTime.getMinutes();
 
     const [edit, setEdit] = useState();
     const [edit2,setEdit2]=useState();
