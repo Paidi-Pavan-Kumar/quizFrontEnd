@@ -29,7 +29,7 @@ function Quizzes(props){
     const testResultsMonth = testResultsTime.getMonth();
     const testResultsYear = testResultsTime.getFullYear();
     const resultsTimeHours = testResultsTime.getHours();
-    const resultsTimeMinutes = testEndTime.getMinutes();
+    const resultsTimeMinutes = testResultsTime.getMinutes();
 
     const [edit, setEdit] = useState();
 
@@ -74,7 +74,6 @@ function Quizzes(props){
                 <div style={{ backgroundColor: "rgb(4, 4, 45)" }} className="card-header text-light"><h5 className="d-inline-block">{props.val.testName}</h5></div>
                 <div className="card-body">
                     <div className="card-title mb-3"><h6 >{props.val.testCode}</h6></div>
-                    <p className="card-text">Instructor:{props.name}</p>
                     <p className="card-text">Test Starts At:{startTimeHours}:{startTimeMinutes} {testStartDate}  {month[testStartMonth]}  {testStartYear}</p>
                     <p className="card-text">Test Ends At:{endTimeHours}:{endTimeMinutes} {testEndDate} {month[testEndMonth]} {testEndYear}</p>
                     <p className="card-text">Results At:{resultsTimeHours}:{resultsTimeMinutes} {testResultsDate} {month[testResultsMonth]} {testResultsYear}</p>
