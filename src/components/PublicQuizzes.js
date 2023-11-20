@@ -57,7 +57,7 @@ function PublicQuizzes(props){
                     <div className="card-title mb-3"><h6 >{props.val.testCode}</h6></div>
                     <p className="card-text">Test Starts At:{startTimeHours}:{startTimeMinutes} {testStartDate}  {month[testStartMonth]}  {testStartYear}</p>
                     <p className="card-text">Test Ends At:{endTimeHours}:{endTimeMinutes} {testEndDate} {month[testEndMonth]} {testEndYear}</p>
-                    <p className="card-text">Test Ends At:{resultsTimeHours}:{resultsTimeMinutes} {testResultsDate} {month[testResultsMonth]} {testResultsYear}</p>
+                    <p className="card-text">Results At:{resultsTimeHours}:{resultsTimeMinutes} {testResultsDate} {month[testResultsMonth]} {testResultsYear}</p>
                     {!ver ? (<>
                     {
                         edit?(<>
