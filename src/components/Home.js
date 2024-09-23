@@ -38,18 +38,18 @@ function Home() {
               <div className="row">
                              <div className="mb-4">
                                  <center>
+                                     <b>Paidi Pavan Kumar</b><br/>
+                                     <a href="https://www.linkedin.com/in/pavan-kumar-paidi-0aa5a22a6/" target="_blank"><i className="fab fa-linkedin" style={{marginRight:"5px"}}></i></a>
+                                     <a href="https://github.com/Paidi-Pavan-Kumar" target="_blank"><i className="fa-brands fa-github" style={{marginRight:"5px"}}></i></a>
+                                     <a href="https://leetcode.com/u/Paidi_Pavan_Kumar/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                 </center>
+                             </div> 
+                             <div className="mb-4">
+                                 <center>
                                      <b>Harshith</b><br/>
                                      <a href="https://www.linkedin.com/in/harshith-gamini-9990b4250/" target="_blank"><i className="fab fa-linkedin" style={{marginRight:"5px"}}></i></a>
                                      <a href="https://github.com/Harshith-Gamini" target="_blank"><i className="fa-brands fa-github" style={{marginRight:"5px"}}></i></a>
                                      <a href="https://www.instagram.com/harshith.g_12/?utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                 </center>
-                             </div>
-                             <div className="mb-3">
-                                 <center>
-                                     <b>Chandan</b><br/>
-                                     <a href="https://www.linkedin.com/in/k-sai-chandan-2k9876rt/" target="_blank"><i className="fab fa-linkedin" style={{marginRight:"5px"}}></i></a>
-                                     <a href="https://github.com/Chandan9081" target="_blank"><i className="fa-brands fa-github" style={{marginRight:"5px"}}></i></a>
-                                     <a href="https://instagram.com/chandan_90._._35?igshid=N3p5dG81YWNtMXJm" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                  </center>
                              </div>
                              <div className="mb-3">
@@ -60,24 +60,7 @@ function Home() {
                                      <a href="https://instagram.com/leelasumanthdharmana?igshid=MWxzeGY3aHFoejViOA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                  </center>
                              </div>
-                             <div className="mb-3">
-                                 <center>
-                                     <b>Satish</b><br/>
-                                     <a href="https://www.linkedin.com/in/satish-pulleti-b35238235/" target="_blank"><i className="fab fa-linkedin" style={{marginRight:"5px"}}></i></a>
-                                     <a href="https://github.com/SatishPulleti" target="_blank"><i className="fa-brands fa-github" style={{marginRight:"5px"}}></i></a>
-                                     <a href="https://instagram.com/pulletisatish1633?igshid=aG53ZWpqcXozNndm" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                 </center>
-                             </div>
-                             <div className="mb-3">
-                                 <center>
-                                     <b>Netaji</b><br/>
-                                     <a href="https://www.linkedin.com/in/netaji-sai-suru-05b941234" target="_blank"><i className="fab fa-linkedin" style={{marginRight:"5px"}}></i></a>
-                                     <a href="https://github.com/Netaji-Sai" target="_blank"><i className="fa-brands fa-github" style={{marginRight:"5px"}}></i></a>
-                                     <a href="https://instagram.com/this_is_me_netaji?igshid=b3V5c2NhM2FyZHBi" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                 </center>
-                             </div>
-                         </div>
-                         
+              </div>
             </div>
           </div>
         </div>
